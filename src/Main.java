@@ -6,7 +6,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         String word = scanner.nextLine();
         makeCombination(word);
-        // System.out.println(mass.entrySet().toArray()[3].toString().charAt(0));
+        System.out.println("Hello world");
     }
     public static void quickSort(Object[] mass, int left, int right) {
         if (right < left + 1) { return; }
@@ -54,7 +54,7 @@ public class Main {
             rank++;
             if (word.contentEquals(alrWord)) {
                 System.out.println(rank);
-                System.exit(0);
+                return;
             }
             return;
         }
