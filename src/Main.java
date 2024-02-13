@@ -6,6 +6,9 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         String word = scanner.nextLine();
         makeCombination(word);
+        // this is america yow fucking sleeping
+        // now
+        System.out.println("new commit");
     }
     public static void quickSort(Object[] mass, int left, int right) {
         if (right < left + 1) { return; }
