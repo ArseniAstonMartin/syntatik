@@ -6,7 +6,6 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         String word = scanner.nextLine();
         makeCombination(word);
-        System.out.println("Hello world");
     }
     public static void quickSort(Object[] mass, int left, int right) {
         if (right < left + 1) { return; }
