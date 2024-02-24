@@ -7,7 +7,4 @@ public class newMegaFunctionality {
     public void printAnInt() {
         System.out.println(anInt + "some text");
     }
-    public static void nothing(int anInt) throws StackOverflowError{
-        if (anInt % 2 == 1) nothing(anInt / 2);
-    }
 }
